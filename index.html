@@ -1,0 +1,244 @@
+<html>
+    <head>
+        <title>D-portfolio.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="artDlogo-Recovered.png">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            body{
+                background: url(15.jpg) fixed;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                margin: 0;
+                overflow: overlay;
+            }
+            /*============================= custom scrollbar ===================================*/
+            ::-webkit-scrollbar {
+                width: 20px;
+            }
+            ::-webkit-scrollbar-track {
+                background-color: transparent;
+            }
+            ::-webkit-scrollbar-thumb {
+                background-color: #ffeaf7;
+                border-radius: 20px;
+                border: 6px solid transparent;
+                background-clip: content-box;
+            }
+            ::-webkit-scrollbar-thumb:hover {
+            background-color: #bfa8b8;
+            }
+            /* Index */
+            #Home{
+                height: 100%;
+            }
+            /*============================= Nav bar =================================*/
+            .navbar{
+                overflow: hidden;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            .navbar a{
+                float: left;
+                text-decoration: none;
+                color: #ffc0b7;
+                display: block;
+                padding: 14px 16px;
+            }
+            .navbar a:hover{
+                color: white;
+                transition: 0.3s;
+            }
+            .navbar ul{
+                list-style-type: none;
+            }
+            .navbar li{
+                padding-right: 3%;
+                font-size: 18px;
+            }
+            .navbar ul li img{
+                float: right;
+                width: 5%;
+            }
+            .sec h1{
+                text-align: center;
+                padding-top: 19%;
+                font-size: 60px;
+                font-weight: 500;
+                text-shadow: 2px 2px 4px #ffceeb;
+            }
+            /*================================== Section 2 ======================================*/
+            #About{
+                height: 100%;
+                padding-top: 6%;
+                display: flex;
+                margin-bottom: 20%;
+            }
+            #box1{
+                height: 123%;
+                width: 50%;
+                background-color: rgba(43, 97, 81, 0.7);
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                margin-left: 5%;
+                color: white;
+                padding-left: 90px;
+                padding-right: 50px;
+            }
+            #box2{
+                width: 70%;
+                margin-right: 0%;
+            }
+            #box2 img{
+                height: 123%;
+                width: 90%;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            /*===================================== Section 3 ============================*/
+            #Contact{
+                padding-top: 6%;
+            }
+            .Contactbox{
+                height: 82%;
+                margin-left: 5%;
+                width: 90%;
+                background-color: rgba(32, 32, 32, 0.7);
+                border-radius: 10px;
+                padding-top: 30px;
+            }
+            .SM img{
+                height: 25px;
+                margin: 20px;
+                cursor: pointer;
+            }
+            .col{
+                display: flex;
+                width: 70%;
+                margin-left: 15%;
+            }
+            #col1,#col2{
+                margin-top: 30px;
+                width: 50%;
+                color: lightgoldenrodyellow;
+            }
+            ::-ms-input-placeholder {
+                color: lightgoldenrodyellow;
+            }
+            ::placeholder{
+                color: lightgoldenrodyellow;
+            }
+            :focus{
+                outline: none;
+            }
+            .inp, button{
+                width: 100%;
+                height: 2.5rem;
+                margin-bottom: 2rem;
+                font-size: 18px;
+                border: 0;
+                border-bottom: 1px solid lightgoldenrodyellow;
+                padding: 0;
+                background: transparent;
+            }
+            button{
+                cursor: pointer;
+                height: 2rem;
+                background-color: rgb(140, 232, 255);
+                border:none;
+                border-radius: 1rem;
+            }
+            .inp:focus{
+                border-bottom: 1px solid rgb(255, 174, 242);
+            }
+            textarea:focus{
+                height:5rem;
+            }
+            button img{
+                vertical-align: middle;
+                color: lightgoldenrodyellow;
+            }
+            button:hover{
+                background-color: rgb(219, 159, 209);
+                transition: 0.3s;
+            }
+            /*============================= footer ==========================*/
+            footer{
+                margin: 5rem;
+                padding: 1rem;
+                text-align: center;
+                color: lightslategray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="Home">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">My Story</a></li>
+                    <li><a href="#Contact">Follow Me</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
+                </ul>
+                <ul>
+                    <li><img src="artDlogo-Recovered.png" alt="Dilky Liyanage" title="Dilky Liyanage"></li>
+                </ul>
+            </div>
+            <div class="sec">
+                <h1>Hi, I'm Dilky.</h1>
+                <center><p style="font-weight: 300;">Computer Science Undergradute at University of Colombo,<br/>School of Computing</p></center>
+            </div>
+        </div>
+        <div id="About">
+            <div id="box1">
+                <br/><h1 style="font-weight: 500;font-size:40px;">THIS IS MY STORY</h1>
+                <p style="line-height: 1.6;font-size: 15px;"><br/><br/>I'm Dilky Liyanage. I'm 20 years old and I live in Battaramulla, Sri Lanka. I follow Catholicism but I'm also very much 
+                    interested in Buddhist concepts too.<br/><br/>I went to Helena Wijewardana Balika Vidyalaya in grade 1 for an year and continued studying at 
+                    Lindsay Girls' School upto Grade 6. Then I went to Yasodara Vidyalaya from grade 6 to O/Ls and came to Devi Balika Vidyalaya for my ALs.
+                    I was in the Other Stream which includes the subjects Mathematics, Physics and ICT.<br/><br/>I'm currently studying BSc in Computer Science in University of Colombo School 
+                    of Computing. Apart from IT, I'm also an Illustration Artist (both traditional and digital). I sell my artworks on 
+                    <a href="https://displate.com/dilkyliyanage22" target="_blank" style="text-decoration: none;color: plum;">displate.com</a>.<br/><br/>I love music, animals, Japanese culture, psychology, 
+                    Anime, fashion, designing, planning, travelling, the list can go on...<br/><br/>A girl, who's trying to find her passion in this world and to have beautiful memories in this life...</p>
+            </div>
+            <div id="box2">
+                <img src="IMG-20190108-WA0059.jpg">
+            </div> 
+        </div>
+        <div id="Contact">
+            <div class="Contactbox">
+                <h1 style="font-size:40px;text-align: center;color: #fdeaf5;">Never Miss A Thing</h1>
+                <div class="SM">
+                    <center><a href="https://www.instagram.com/dilky_22/" target="_blank"><img src="instagram.png"></a>
+                        <a href="https://twitter.com/LiyanageDilky" target="_blank"><img src="twitter.png"></a>
+                        <a href="https://www.facebook.com/dilky.liyanage.9" target="_blank"><img src="facebook.png"></a>
+                        <a href="https://www.linkedin.com/in/dilky-l-b615b0130/" target="_blank"><img src="linkedin.png"></a>
+                        <a href="https://www.youtube.com/channel/UCV42ayH8jCSpnVQCyGgkO3g" target="_blank"><img src="youtube.png"></a></center>
+                </div>
+                <div class="col">
+                    <div id="col1">
+                        <h3>I'D LOVE TO HEAR FROM YOU</h3>
+                        <h4>Dilky Liyanage</h4><p style="line-height: 0;">dilkyliyanage22@gamil.com</p>
+                        <p>Phone: 070 165 7413 (Cellular)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;011 286 2205 (Fixed)</p><br/>
+                        <h4>FOR BUSINESS INQUIRIES</h4><p style="line-height: 0;">nekodhaisuki@gamil.com</p>
+                    </div>
+                    <div id="col2">
+                        <form method="GET" action="">
+                            <br/><input type="text" placeholder="Your Name" class="inp" required>
+                            <br/><input type="email" placeholder="E-mail" class="inp" required>
+                            <br/><textarea rows="30" cols="1" class="inp" placeholder="Write your message here..." style="resize: none;" required></textarea>
+                            <button type="button"><img src="paper-plane.png" height="20rem" width="20rem"> Send</button>
+                        </form>
+                    </div>
+                </div>
+                <footer>
+                    <hr style="border-color: lightslategray;opacity: 0.5;">
+                    <p>&copy; 2021 by Dilky Liyanage</p>
+                </footer>
+            </div>
+        </div> 
+    </body>
+</html>
