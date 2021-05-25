@@ -27,102 +27,95 @@
 /*========================================================================================*/
 
 @media (max-width: 1150px){
-    #About{
-        padding-top: 5rem;
+    #show-content{
+        display: none;
     }
-    #contact{
-        left: 25rem;
+    .footer{
+        display: none;
     }
-    #MV{
-        margin-top: 12rem;
+    body{
+        background: linear-gradient(19deg, #c4668a 0%, #a8093e 100%) no-repeat center center fixed; 
+    width: 100%;
+    height: 100%;
     }
-    #box2 hr{
-        display: block;
-        margin-left: -20px;
-        margin-top: 5rem;
+    #hide-content{
+        display:block;
     }
-    #box2 a img{
-        height: 1.5rem;
-        width: 1.5rem;
-        margin-right: 1rem;
-        padding: .5rem;
-        margin-top: 2rem;
-    }
+    
 }
 
 /*========================================================================================*/
 
 @media (max-width: 992px) {
-    #About{
-        padding-top: 5rem;
+    #show-content{
+        display: none;
     }
-    #contact{
-        left: 20rem;
+    .footer{
+        display: none;
     }
-    #MV{
-        margin-top: 12rem;
+    body{
+        background: linear-gradient(19deg, #c4668a 0%, #a8093e 100%) no-repeat center center fixed; 
+    width: 100%;
+    height: 100%;
     }
-    #box2 hr{
-        display: block;
-        margin-left: -20px;
-        margin-top: 5rem;
-    }
-    #box2 a img{
-        height: 1.5rem;
-        width: 1.5rem;
-        margin-right: 1rem;
-        padding: .5rem;
-        margin-top: 2rem;
+    #hide-content{
+        display:block;
     }
 }
 
 /*========================================================================================*/
 
 @media (max-width:768px){
-    #imagee{
-        width: 78.6%;
+    #show-content{
+        display: none;
     }
-    #contact{
-        left: 12.5rem;
+    .footer{
+        display: none;
     }
-    #box2 hr{
-        margin-top: 4rem;
-        width: 30rem;
+    body{
+        background: linear-gradient(19deg, #c4668a 0%, #a8093e 100%) no-repeat center center fixed; 
+    width: 100%;
+    height: 100%;
+    }
+    #hide-content{
+        display:block;
     }
 }
 
 /*=========================================================================================*/
 
 @media (max-width: 576px) {
-    #imagee{
-        width: 100%;
+    #show-content{
+        display: none;
     }
-    #contact{
-        left: 6.1rem;
-        top: 27rem;
+    .footer{
+        display: none;
     }
-    #box2 hr{
-        margin-top: 2rem;
-        width: 21.5rem;
+    body{
+        background: linear-gradient(19deg, #c4668a 0%, #a8093e 100%) no-repeat center center fixed; 
+    width: 100%;
+    height: 100%;
+    }
+    #hide-content{
+        display:block;
     }
 }
 
 /*=========================================================================================*/
 
 @media (max-width: 360px) {
-    body{
-        background: url(15.jpg) fixed;
-        background-size: 800px 1080px;
-        background-repeat: no-repeat;
-    }
-    #Home img{
+    #show-content{
         display: none;
     }
-    .navbar li, .navbar a{
-        font-size: 25px;
-        padding-right: 9.3%;
+    .footer{
+        display: none;
     }
-    .navbar{
-        left: 3.5%;
+    body{
+        background: linear-gradient(19deg, #c4668a 0%, #a8093e 100%) no-repeat center center fixed; 
+    width: 100%;
+    height: 100%;
+    }
+    #hide-content{
+        display:block;
     }
 }
