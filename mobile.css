@@ -1,0 +1,128 @@
+@media (max-width: 1250px){
+    #contact{
+        left: 39.5rem;
+        width: 24rem;
+        height: 34rem;
+    }
+    #contact input, textarea{
+        height: 2rem;
+    }
+    #contact textarea{
+        height: 9rem;
+    }
+}
+
+/*======================================================================================*/
+
+@media (max-width: 1200px) {
+    #contact{
+        left: 37rem;
+    }
+    #box2 a img{
+        margin-top: 8.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/*========================================================================================*/
+
+@media (max-width: 1150px){
+    #About{
+        padding-top: 5rem;
+    }
+    #contact{
+        left: 25rem;
+    }
+    #MV{
+        margin-top: 12rem;
+    }
+    #box2 hr{
+        display: block;
+        margin-left: -20px;
+        margin-top: 5rem;
+    }
+    #box2 a img{
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 1rem;
+        padding: .5rem;
+        margin-top: 2rem;
+    }
+}
+
+/*========================================================================================*/
+
+@media (max-width: 992px) {
+    #About{
+        padding-top: 5rem;
+    }
+    #contact{
+        left: 20rem;
+    }
+    #MV{
+        margin-top: 12rem;
+    }
+    #box2 hr{
+        display: block;
+        margin-left: -20px;
+        margin-top: 5rem;
+    }
+    #box2 a img{
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 1rem;
+        padding: .5rem;
+        margin-top: 2rem;
+    }
+}
+
+/*========================================================================================*/
+
+@media (max-width:768px){
+    #imagee{
+        width: 78.6%;
+    }
+    #contact{
+        left: 12.5rem;
+    }
+    #box2 hr{
+        margin-top: 4rem;
+        width: 30rem;
+    }
+}
+
+/*=========================================================================================*/
+
+@media (max-width: 576px) {
+    #imagee{
+        width: 100%;
+    }
+    #contact{
+        left: 6.1rem;
+        top: 27rem;
+    }
+    #box2 hr{
+        margin-top: 2rem;
+        width: 21.5rem;
+    }
+}
+
+/*=========================================================================================*/
+
+@media (max-width: 360px) {
+    body{
+        background: url(15.jpg) fixed;
+        background-size: 800px 1080px;
+        background-repeat: no-repeat;
+    }
+    #Home img{
+        display: none;
+    }
+    .navbar li, .navbar a{
+        font-size: 25px;
+        padding-right: 9.3%;
+    }
+    .navbar{
+        left: 3.5%;
+    }
+}

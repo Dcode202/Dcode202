@@ -1,0 +1,331 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: url(15.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    overflow: overlay;
+}
+@keyframes appear{
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
+@-moz-keyframes appear{
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
+@-webkit-keyframes appear{
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
+@-o-keyframes appear{
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
+@-ms-keyframes appear{
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
+/*============================= custom scrollbar ===================================*/
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ffeaf7;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+background-color: #bfa8b8;
+}
+/* Index */
+#Home{
+    height: 100%;
+}
+/*============================= Nav bar =================================*/
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+}
+.navbar a{
+    float: left;
+    text-decoration: none;
+    color: #ffc0b7;
+    display: block;
+    padding: 14px 16px;
+}
+.navbar a:hover{
+    color: #c184bb;
+    transition: 0.3s;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar li{
+    padding-right: 3%;
+    font-size: 18px;
+}
+.navbar ul li img{
+    float: right;
+    width: 5%;
+}
+.sec h1{
+    text-align: center;
+    padding-top: 19%;
+    font-size: 60px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #ffceeb;
+}
+/*================================== Section 1 ======================================*/
+.sec p{
+    animation-name: appear;
+    animation-duration: 2s;
+}
+/*================================== Section 2 ======================================*/
+#box2 hr{
+    display: none;
+}
+#About{
+    padding-top: 6%;
+}
+#box1{   
+    background-color: #a85258ec;
+    color: white;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#box1 hr{
+    position: relative;
+    width: 50rem;
+    border: none;
+    height: 2px;
+    background: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#box2{
+    background-color: white;
+    position: relative;
+    margin: auto;
+    width:70%;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3rem;
+    color: rgb(71, 71, 71);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.gallery-image {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 10;
+  }
+  
+  .gallery-image img {
+    width: 250px;
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+  }
+  
+  .img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    width: 250px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0.0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .transparent-box {
+    margin-top: 16.1rem;
+    height: 150px;
+    width: 250px;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .img-box:hover img { 
+    transform: scale(1.1);
+  }
+  
+  .img-box:hover .transparent-box {
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+  
+  .img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1.0;
+  }
+  
+  .img-box:hover {
+    cursor: pointer;
+  }
+  
+  .caption > p:nth-child(2) {
+    font-size: 0.8em;
+  }
+  
+  .opacity-low {
+    opacity: 0.5;
+  }
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(179, 6, 43);  
+    cursor: pointer; 
+    padding: 1rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+/*===================================== Section 3 ============================*/
+#contact{
+    position: absolute;
+    width: 25rem;
+    height: 35rem;
+    background-color: white;
+    z-index: 20;
+    left: 53%;
+    top: 31rem;
+    border-radius: .5rem;
+    color: rgb(71, 71, 71);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#contact p, #contact h1{
+    font-weight: 100;
+    padding-left: 1.5rem;
+}
+#contact form{
+    margin: 1.5rem;
+}
+#contact input, textarea{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid rgb(173, 163, 171);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#contact textarea{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: .5rem;
+    height: 10rem;
+}
+#contact textarea::-webkit-scrollbar-thumb {
+    background-color: #50002c;
+    cursor: pointer;
+}
+#contact textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #7a7478;
+}
+::-ms-input-placeholder {
+    color: rgb(163, 163, 163);
+}
+::placeholder{
+    color: rgb(163, 163, 163);
+}
+:focus{
+    outline: none;
+}
+
+button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    border:none;
+    color: rgb(71, 71, 71);
+    float: right;
+}
+button:hover{
+    color: rgb(150, 2, 2);
+    transition: 0.3s;
+}
+#box2 a img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+    padding: .5rem;
+    margin-top: 6.2rem;
+}
+/*============================= footer ==========================*/
+footer{
+    padding: 1rem;
+    text-align: center;
+    color: lightslategray;
+}
